@@ -1,0 +1,65 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  margin: 10px 0;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.persImage {
+  width: 200px;
+  height: 200px;
+}
+
+.persInfo {
+  padding: 0 10px;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.persEpisode {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.persEpisode a {
+  width: 300px;
+  margin: 0 10px 0 0;
+}
+
+.deleteButton {
+  display: flex;
+  color: red;
+  font-weight: bold;
+}
+
+.buttonBlock{
+  display: flex;
+  width: 90%;
+  margin: 10px auto 0;
+}
+.sort,
+.show {
+  line-height: 2;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: rgb(190, 169, 206);
+  
+}
+.sort:hover {
+  background-color: rgb(216, 210, 221);
+}
+.sort:active {
+  border: 1px solid rgb(143, 103, 177);
+}
+.show{
+  margin-left: 5%;
+}
